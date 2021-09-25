@@ -1,0 +1,154 @@
+.h3-topbar {
+  padding: 5px 0px;
+  background: #1f0013;
+}
+
+.h3-topbar .list-inline {
+  margin-bottom: 0px;
+}
+
+.h3-topbar .list-inline li {
+  display: inline-block;
+}
+
+.h3-topbar .list-inline li a {
+  padding: 3px 8px;
+  display: block;
+  color: #8d97ad;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.h3-topbar .list-inline li a:hover {
+  color: #ffffff;
+}
+
+.h3-topbar .t-r {
+  text-align: right;
+}
+
+.h3-navbar {
+  position: relative;
+  border-bottom: 3px solid #ff3399;
+  background: linear-gradient(0deg, rgba(42, 0, 24, 1) 0%, rgba(99, 0, 58, 1) 100%);
+  padding: 0px 15px;
+}
+
+.h3-navbar .navbar-brand {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 240px;
+  text-align: center;
+  background: transparent;
+  color: #ffffff;
+  padding: 20px 15px;
+  top: -20px;
+}
+
+.logo-text {
+  line-height: 1.1em;
+  z-index: 999;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-shadow: 0px 2px 2px #000;
+  bottom: -18px;
+  font-size: 1.2em;
+}
+
+.navbar-brand img {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  z-index: 998;
+  pointer-events: none;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  border-top: 1px solid transparent;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background-image: url('../../assets/img/pink-hover.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  border-top: 1px solid #ff3399;
+}
+
+.navbar-nav .nav-item a {
+  padding: 15px 0px;
+}
+
+.image-holder {
+  height: 700px;
+  width: 100%;
+  background: url('https://www.dreamvegas.com/images/hero/lay1.png') no-repeat;
+  background-size: cover;
+  transition: transform 3s ease;
+  transform: scale(1);
+  z-index: 1;
+  background-position: center;
+}
+
+.image2-holder {
+  height: 700px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background: url('https://www.dreamvegas.com/images/hero/mirage.png') no-repeat;
+  background-size: 60%;
+  transition: transform 2s ease;
+  transform: scale(1);
+  z-index: 9;
+  background-position: center;
+}
+
+.image3-holder {
+  height: 700px;
+  position: absolute;
+  top: -40px;
+  width: 100%;
+  /*background: url('https://www.dreamvegas.com/images/hero/temp.png') no-repeat;*/
+  background-size: 30%;
+  transition: transform 1.5s ease;
+  transform: scale(1);
+  z-index: 99;
+  background-position: center;
+}
+
+.image-container {
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  background: url('https://www.dreamvegas.com/images/hero/bg.png');
+  background-size: cover;
+}
+
+.labelText {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.content {
+  padding: 24px;
+}
+

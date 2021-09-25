@@ -1,0 +1,70 @@
+.image-holder {
+  height: 700px;
+  width: 100%;
+  background: url('https://www.dreamvegas.com/images/hero/lay1.png') no-repeat;
+  background-size: cover;
+  transition: transform 3s ease;
+  transform: scale(1);
+  z-index: 1;
+  background-position: center;
+}
+
+.image2-holder {
+  height: 700px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background: url('https://www.dreamvegas.com/images/hero/mirage.png') no-repeat;
+  background-size: 60%;
+  transition: transform 2s ease;
+  transform: scale(1);
+  z-index: 9;
+  background-position: center;
+}
+
+.image3-holder {
+  height: 700px;
+  position: absolute;
+  top: -40px;
+  width: 100%;
+  background: url('https://i.ibb.co/xL8WF5m/d1.png') no-repeat;
+  background-size: 30%;
+  transition: transform 1.5s ease;
+  transform: scale(1);
+  z-index: 99;
+  background-position: center;
+}
+
+.image-holder.scale-img {
+  transform: scale(1.1);
+}
+
+.image2-holder.scale-img {
+  transform: scale(1.2);
+}
+
+.image3-holder.scale-img {
+  transform: scale(1.3);
+}
+
+.image-container {
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  background: url('https://www.dreamvegas.com/images/hero/bg.png');
+  background-size: cover;
+}
+
+.labelText {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.content {
+  padding: 24px;
+}
+
