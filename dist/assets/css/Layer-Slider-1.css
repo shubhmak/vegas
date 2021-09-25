@@ -1,0 +1,130 @@
+.h3-topbar {
+  padding: 5px 0px;
+  background: #1f0013;
+}
+
+.h3-topbar .list-inline {
+  margin-bottom: 0px;
+}
+
+.h3-topbar .list-inline li {
+  display: inline-block;
+}
+
+.h3-topbar .list-inline li a {
+  padding: 3px 8px;
+  display: block;
+  color: #8d97ad;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.h3-topbar .list-inline li a:hover {
+  color: #ffffff;
+}
+
+.h3-topbar .list-inline li a .info-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  font-size: 25px;
+}
+
+.h3-topbar .list-inline li a .vdevider {
+  width: 1px;
+  background: rgba(120, 130, 140, 0.13);
+  display: inline-block;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.h3-topbar .t-r {
+  text-align: right;
+}
+
+.h3-navbar {
+  position: relative;
+  border-bottom: 3px solid #ff3399;
+  background: linear-gradient(0deg, rgba(42, 0, 24, 1) 0%, rgba(99, 0, 58, 1) 100%);
+  padding: 0px 15px;
+}
+
+.h3-navbar .navbar-brand {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 240px;
+  text-align: center;
+  background: transparent;
+  color: #ffffff;
+  padding: 20px 15px;
+  top: -20px;
+}
+
+.h3-navbar .navbar {
+  padding: 0px;
+  margin-top: -1px;
+}
+
+.h3-navbar .navbar .navbar-nav .nav-item {
+  margin: 0 10px;
+}
+
+.h3-navbar .navbar .navbar-nav .nav-link {
+  padding: 22px 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ffffff;
+  border-top: 1px solid transparent;
+}
+
+.logo-text {
+  line-height: 1.1em;
+  z-index: 999;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-shadow: 0px 2px 2px #000;
+  bottom: -18px;
+  font-size: 1.2em;
+  color: yellow;
+}
+
+.navbar-brand img {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  z-index: 998;
+  pointer-events: none;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  border-top: 1px solid transparent;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background-image: url('../../assets/img/pink-hover.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  border-top: 1px solid #ff3399;
+}
+
+.navbar-nav .nav-item a {
+  padding: 15px 0px;
+}
+
